@@ -1,0 +1,7 @@
+body{
+    background: #eee;
+}
+
+#page > .container{
+    background: #fff;
+}
