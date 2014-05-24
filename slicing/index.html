@@ -9,9 +9,6 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-
-    <link rel="stylesheet" href="style.css">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -21,242 +18,647 @@
 </head>
 <body>
 
-<div id="page">
+<nav class="navbar navbar-default navbar-fixed-top text-center us-top-video">
+    Show video
+</nav>
+<nav class="navbar navbar-default navbar-fixed-top us-top-navbar" role="navigation">
     <div class="container">
-        <div class="row">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide2.jpg" alt="...">
-                        <div class="carousel-caption">
-                            ...
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide1.jpg" alt="...">
-                        <div class="carousel-caption">
-                            ...
-                        </div>
-                    </div>
-                </div>
-                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
-            </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <a href="#tab-1" class="col-md-3 text-center" data-toggle="tab">Item</a>
-                    <a href="#tab-2" class="col-md-3 text-center" data-toggle="tab">Item</a>
-                    <a href="#tab-3" class="col-md-3 text-center" data-toggle="tab">Item</a>
-                    <a href="#tab-4" class="col-md-3 text-center" data-toggle="tab">Item</a>
+</nav>
+
+<div class="container bottom-distance" id="home-top-slider">
+    <div class="row">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide1.jpg" alt="...">
+                    <div class="carousel-caption">
+                        ...
+                    </div>
                 </div>
             </div>
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
         </div>
-        <div class="row tab-content">
-            <div class="col-md-10 col-md-offset-1 tab-pane active" id="tab-1">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-1.jpg" alt="" class="img-responsive"/>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="text-center">
-                            Экстракорпоральное оплодотворение
-                        </h2>
-                        <p>
-                            Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
-                        </p>
-                        <button type="button" class="btn btn-link">Читать полностью</button>
-                    </div>
+    </div>
+</div>
+<div class="container bottom-distance" id="home-tab-set">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#tab-1" class="text-center home-tab-control" data-toggle="tab">Item</a>
                 </div>
-            </div>
-            <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-2">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-2.jpg" alt="" class="img-responsive"/>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="text-center">
-                            Экстракорпоральное оплодотворение
-                        </h2>
-                        <p>
-                            Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
-                        </p>
-                        <button type="button" class="btn btn-link">Читать полностью</button>
-                    </div>
+                <div class="col-md-3">
+                    <a href="#tab-2" class="text-center home-tab-control" data-toggle="tab">Item</a>
                 </div>
-            </div>
-            <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-3">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-3.jpg" alt="" class="img-responsive"/>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="text-center">
-                            Экстракорпоральное оплодотворение
-                        </h2>
-                        <p>
-                            Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
-                        </p>
-                        <button type="button" class="btn btn-link">Читать полностью</button>
-                    </div>
+                <div class="col-md-3">
+                    <a href="#tab-3" class="text-center home-tab-control" data-toggle="tab">Item</a>
                 </div>
-            </div>
-            <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-4">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-4.jpg" alt="" class="img-responsive"/>
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="text-center">
-                            Экстракорпоральное оплодотворение
-                        </h2>
-                        <p>
-                            Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
-                        </p>
-                        <button type="button" class="btn btn-link">Читать полностью</button>
-                    </div>
+                <div class="col-md-3">
+                    <a href="#tab-4" class="text-center home-tab-control" data-toggle="tab">Item</a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                654654
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="h1 text-center">12</div>
-                                <div class="h5 text-center">april</div>
-                            </div>
-                            <h4 class="col-md-9">
-                                Изменения к годовому плану государственных закупок
-                            </h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="h1 text-center">12</div>
-                                <div class="h5 text-center">april</div>
-                            </div>
-                            <h4 class="col-md-9">
-                                Изменения к годовому плану государственных закупок
-                            </h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="h1 text-center">12</div>
-                                <div class="h5 text-center">april</div>
-                            </div>
-                            <h4 class="col-md-9">
-                                Изменения к годовому плану государственных закупок
-                            </h4>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
-                            </div>
-                        </div>
-                    </div>
+    <div class="row tab-content">
+        <div class="col-md-10 col-md-offset-1 tab-pane active" id="tab-1">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-1.jpg" alt="" class="img-responsive"/>
+                </div>
+                <div class="col-md-6">
+                    <h2>
+                        Экстракорпоральное оплодотворение
+                    </h2>
+                    <p>
+                        Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
+                    </p>
+                    <button type="button" class="btn btn-link">Читать полностью</button>
                 </div>
             </div>
-            <div class="col-md-4 col-md-offset-4 text-center">
-                <a href="#">Все новости</a>
+        </div>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-2.jpg" alt="" class="img-responsive"/>
+                </div>
+                <div class="col-md-6">
+                    <h2>
+                        Экстракорпоральное оплодотворение
+                    </h2>
+                    <p>
+                        Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
+                    </p>
+                    <button type="button" class="btn btn-link">Читать полностью</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-3.jpg" alt="" class="img-responsive"/>
+                </div>
+                <div class="col-md-6">
+                    <h2>
+                        Экстракорпоральное оплодотворение
+                    </h2>
+                    <p>
+                        Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
+                    </p>
+                    <button type="button" class="btn btn-link">Читать полностью</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="tab-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="http://dev.devio.kz/wp-content/uploads/2014/05/slide-2-4.jpg" alt="" class="img-responsive"/>
+                </div>
+                <div class="col-md-6">
+                    <h2>
+                        Экстракорпоральное оплодотворение
+                    </h2>
+                    <p>
+                        Благодаря революционному развитию вспомогательных репродуктивных технологий появился способ лечения бесплодия, подаривший большие надежды бесплодным супружеским парам. Это метод экстракорпорального оплодотворения (ЭКО), который на сегодняшний день является самым эффективным методом лечения бесплодия, помогающим даже в самых безнадёжных ситуациях.
+                    </p>
+                    <button type="button" class="btn btn-link">Читать полностью</button>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
-
-<div id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2 col-md-offset-5 text-center">
-                <div class="row">
-                    <div class="col-md-6 text-center">
-                        <a href="#">
-                            <img src="http://dev.devio.kz/wp-content/themes/irm/images/yt.png" alt="" class="img-responsive"/>
-                        </a>
+<div class="container bottom-distance" id="home-faq-slider">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h2 class="text-center">Frequently Asked Question</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bottom-distance" id="home-doctors-slider">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h2 class="text-center">Our Team</h2>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#doctors-tab-1" class="text-center home-doctors-control" data-toggle="tab">Item</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#doctors-tab-2" class="text-center home-doctors-control" data-toggle="tab">Item</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#doctors-tab-3" class="text-center home-doctors-control" data-toggle="tab">Item</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#doctors-tab-4" class="text-center home-doctors-control" data-toggle="tab">Item</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row tab-content">
+        <div class="col-md-10 col-md-offset-1 tab-pane active" id="doctors-tab-1">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-2">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
+                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-center">
-                        <a href="#">
-                            <img src="http://dev.devio.kz/wp-content/themes/irm/images/fb.png" alt="" class="img-responsive"/>
-                        </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
+                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
+                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
+                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="center-block">...</div>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-3">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
+                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
+                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
+                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
+                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
-
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Nav header</li>
-                        <li><a href="#">Separated link</a></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
-            </ul>
         </div>
-
-
-
-        <div class="copyright text-center">
-            <p class="text-muted">
-                © ИРМ, 2014. Все права защищены.
-            </p>
+        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-4">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
+                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
+                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
+                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
+                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
+                        Name of other Doctor
+                    </a>
+                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="license text-center">
-            <p class="text-muted">
-                Государственная лицензия АА-4 №0105404 от 14.04.2011<br/>бессрочно выдана бла бла...
-            </p>
+        <div class="modal fade" id="doctor-1-modals" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://www.healthbyconnect.com/assets/img/mandoctor.jpg" alt="" class="img-responsive"/>
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Name of Doctor</h3>
+                                <p>
+                                    <em>
+                                        But also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                    </em>
+                                </p>
+                                <p>
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+</div>
+<div class="container bottom-distance" id="home-latest-news">
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            <h2 class="text-center">Latest News</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="h1 text-center">12</div>
+                            <div class="h5 text-center">april</div>
+                        </div>
+                        <h4 class="col-md-9">
+                            Изменения к годовому плану государственных закупок
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="h1 text-center">12</div>
+                            <div class="h5 text-center">april</div>
+                        </div>
+                        <h4 class="col-md-9">
+                            Изменения к годовому плану государственных закупок
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="h1 text-center">12</div>
+                            <div class="h5 text-center">april</div>
+                        </div>
+                        <h4 class="col-md-9">
+                            Изменения к годовому плану государственных закупок
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            Служба безопасности Украины обезвредила пророссийскую радикальную организацию, которая готовила диверсии и террористические акты в Днепропетровской области. Об этом говорится в сообщении пресс-службы СБУ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-4 text-center">
+            <a href="#">Все новости</a>
+        </div>
+    </div>
+</div>
+<div class="container bottom-distance top-distance gray" id="social">
+    <div class="row">
+        <div class="col-md-2 col-md-offset-5 text-center">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <a href="#">
+                        <img src="http://dev.devio.kz/wp-content/themes/irm/images/yt.png" alt="" class="img-responsive"/>
+                    </a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <a href="#">
+                        <img src="http://dev.devio.kz/wp-content/themes/irm/images/fb.png" alt="" class="img-responsive"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container bottom-distance gray" id="menu">
+    <div class="row">
+        <ul class="nav navbar-nav us-footer-navbar">
+            <li class="active"><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+        </ul>
+    </div>
+</div>
+<div class="container gray" id="copyrigh">
+    <div class="copyright text-center">
+        <p class="text-muted">
+            © ИРМ, 2014. Все права защищены.
+        </p>
+    </div>
+    <div class="license text-center">
+        <p class="text-muted">
+            Государственная лицензия АА-4 №0105404 от 14.04.2011<br/>бессрочно выдана бла бла...
+        </p>
     </div>
 </div>
 
@@ -264,5 +666,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<script src="assets/js/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script src="assets/js/custom.js"></script>
 </body>
 </html>
