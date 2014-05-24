@@ -7908,42 +7908,42 @@ body {
 
 /* line 10, ../sass/custom.sass */
 .container.bottom-distance {
-  padding-bottom: 2em;
+  padding-bottom: 28px;
 }
 
 /* line 12, ../sass/custom.sass */
 .container.top-distance {
-  padding-top: 2em;
+  padding-top: 28px;
 }
 
 /* line 15, ../sass/custom.sass */
 #home-top-slider {
-  padding-top: 0em;
+  padding-top: 0px;
 }
 
 /* line 19, ../sass/custom.sass */
 #home-tab-set .home-tab-control {
-  line-height: 6em;
+  line-height: 84px;
   background-color: #dddddd;
   color: white;
   display: block;
-  -webkit-border-radius: 0.75em;
-  -moz-border-radius: 0.75em;
-  -ms-border-radius: 0.75em;
-  -o-border-radius: 0.75em;
-  border-radius: 0.75em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* line 29, ../sass/custom.sass */
 #home-doctors-slider .home-doctors-control {
   display: block;
-  line-height: 4em;
+  line-height: 56px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
   background-image: -webkit-linear-gradient(#eeeeee, #cccccc);
   background-image: -moz-linear-gradient(#eeeeee, #cccccc);
   background-image: -o-linear-gradient(#eeeeee, #cccccc);
   background-image: linear-gradient(#eeeeee, #cccccc);
-  margin-bottom: 1em;
+  margin-bottom: 14px;
   color: #444444;
 }
 
@@ -7955,14 +7955,19 @@ body {
 }
 
 /* line 45, ../sass/custom.sass */
-.us-top-video {
-  line-height: 2em;
-  height: 2em;
+#us-top-video {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+  line-height: 28px;
 }
 
-/* line 51, ../sass/custom.sass */
-.us-top-navbar {
-  margin-top: 2em;
+/* line 50, ../sass/custom.sass */
+#us-top-nav {
+  line-height: 60px;
+  margin-top: 28px;
+}
+/* line 53, ../sass/custom.sass */
+#us-top-nav #logo {
+  margin-bottom: -30px;
+  margin-top: -30px;
 }

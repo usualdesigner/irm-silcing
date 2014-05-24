@@ -5,12 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/styles.css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -18,20 +13,44 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-fixed-top text-center us-top-video">
-    Show video
-</nav>
-<nav class="navbar navbar-default navbar-fixed-top us-top-navbar" role="navigation">
-    <div class="container">
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Link</a></li>
-                <li><a href="#">Link</a></li>
-            </ul>
+<!--<nav class="navbar navbar-default navbar-fixed-top text-center us-top-video">-->
+    <!--Show video-->
+<!--</nav>-->
+<!--<nav class="navbar navbar-default navbar-fixed-top us-top-navbar" role="navigation">-->
+    <!--<div class="container">-->
+        <!--<div class="collapse navbar-collapse">-->
+            <!--<ul class="nav navbar-nav">-->
+                <!--<li class="active"><a href="#">Home</a></li>-->
+                <!--<li><a href="#">Link</a></li>-->
+                <!--<li><a href="#">Link</a></li>-->
+            <!--</ul>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</nav>-->
+
+<div class="container navbar-fixed-top" id="us-top-video">
+    <div class="row">
+        <div class="col-md-12 text-center">show video</div>
+    </div>
+</div>
+
+<div class="container navbar-fixed-top" id="us-top-nav">
+    <div class="row">
+        <div class="col-md-3" id="logo">
+            <a href="#">
+                <img src="assets/images/logo.png" alt=""/>
+            </a>
+        </div>
+        <div class="col-md-7">menu</div>
+        <div class="col-md-2">
+            <div class="row">
+                <div class="col-md-3">Rus</div>
+                <div class="col-md-3">Kaz</div>
+                <div class="col-md-3">Eng</div>
+            </div>
         </div>
     </div>
-</nav>
+</div>
 
 <div class="container bottom-distance" id="home-top-slider">
     <div class="row">
@@ -620,6 +639,7 @@
         </div>
     </div>
 </div>
+
 <div class="container bottom-distance top-distance gray" id="social">
     <div class="row">
         <div class="col-md-2 col-md-offset-5 text-center">
@@ -662,9 +682,7 @@
     </div>
 </div>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 <script src="assets/js/jquery.bxslider/jquery.bxslider.min.js"></script>
