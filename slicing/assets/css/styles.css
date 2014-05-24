@@ -1410,7 +1410,7 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 /* line 39, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -1425,12 +1425,12 @@ textarea {
 
 /* line 48, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #428bca;
+  color: #ec1551;
   text-decoration: none;
 }
 /* line 53, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 a:hover, a:focus {
-  color: #2a6496;
+  color: #a70e38;
   text-decoration: underline;
 }
 /* line 58, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -3169,7 +3169,7 @@ th {
 }
 /* line 56, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: white;
+  background-color: #eeeeee;
 }
 
 /* line 70, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_tables.scss */
@@ -4159,7 +4159,7 @@ select[multiple].input-lg,
 
 /* line 85, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #428bca;
+  color: #ec1551;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -4176,7 +4176,7 @@ select[multiple].input-lg,
 }
 /* line 105, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link:hover, .btn-link:focus {
-  color: #2a6496;
+  color: #a70e38;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4867,7 +4867,7 @@ tbody.collapse.in {
 /* line 48, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #eeeeee;
-  border-color: #428bca;
+  border-color: #ec1551;
 }
 /* line 59, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
@@ -5985,7 +5985,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #428bca;
+  border-color: #ec1551;
 }
 
 /* line 9, ../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_alerts.scss */
@@ -7892,36 +7892,43 @@ button.close {
   }
 }
 /* line 1, ../sass/custom.sass */
-body {
-  background: #eeeeee;
-}
-
-/* line 4, ../sass/custom.sass */
 .container.gray {
   background: #eeeeee;
 }
 
-/* line 7, ../sass/custom.sass */
+/* line 3, ../sass/custom.sass */
 .container {
   background: white;
 }
 
-/* line 10, ../sass/custom.sass */
+/* line 5, ../sass/custom.sass */
 .container.bottom-distance {
   padding-bottom: 28px;
 }
 
-/* line 12, ../sass/custom.sass */
+/* line 7, ../sass/custom.sass */
 .container.top-distance {
   padding-top: 28px;
 }
 
+/* line 10, ../sass/custom.sass */
+.us-home-subtitle {
+  text-transform: uppercase;
+  color: #ddcfd2;
+  position: relative;
+}
+
 /* line 15, ../sass/custom.sass */
+#tools {
+  margin-top: 88px;
+}
+
+/* line 19, ../sass/custom.sass */
 #home-top-slider {
   padding-top: 0px;
 }
 
-/* line 19, ../sass/custom.sass */
+/* line 23, ../sass/custom.sass */
 #home-tab-set .home-tab-control {
   line-height: 84px;
   background-color: #dddddd;
@@ -7933,8 +7940,24 @@ body {
   -o-border-radius: 10px;
   border-radius: 10px;
 }
+/* line 30, ../sass/custom.sass */
+#home-tab-set .home-tab-control.active.color-magenta {
+  background-color: #e6aed1;
+}
+/* line 32, ../sass/custom.sass */
+#home-tab-set .home-tab-control.active.color-orange {
+  background-color: #f8b7bb;
+}
+/* line 34, ../sass/custom.sass */
+#home-tab-set .home-tab-control.active.color-cyan {
+  background-color: #8dd5cd;
+}
+/* line 36, ../sass/custom.sass */
+#home-tab-set .home-tab-control.active.color-violet {
+  background-color: #a6a3ce;
+}
 
-/* line 29, ../sass/custom.sass */
+/* line 42, ../sass/custom.sass */
 #home-doctors-slider .home-doctors-control {
   display: block;
   line-height: 56px;
@@ -7947,26 +7970,26 @@ body {
   color: #444444;
 }
 
-/* line 40, ../sass/custom.sass */
+/* line 53, ../sass/custom.sass */
 .us-footer-navbar {
   display: table;
   margin: 0 auto;
   float: none;
 }
 
-/* line 45, ../sass/custom.sass */
+/* line 58, ../sass/custom.sass */
 #us-top-video {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   line-height: 28px;
 }
 
-/* line 50, ../sass/custom.sass */
+/* line 63, ../sass/custom.sass */
 #us-top-nav {
   line-height: 60px;
   margin-top: 28px;
 }
-/* line 53, ../sass/custom.sass */
+/* line 66, ../sass/custom.sass */
 #us-top-nav #logo {
   margin-bottom: -30px;
   margin-top: -30px;

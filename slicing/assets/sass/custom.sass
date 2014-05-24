@@ -1,16 +1,20 @@
-body
-  background: #eee
-
 .container.gray
   background: #eee
-
 .container
   background: #fff
-
 .container.bottom-distance
   padding-bottom: 28px
 .container.top-distance
   padding-top: 28px
+
+.us-home-subtitle
+  text-transform: uppercase
+  color: #DDCFD2
+  position: relative
+
+#tools
+  margin-top: 88px
+
 
 #home-top-slider
   padding-top: 0px
@@ -22,6 +26,15 @@ body
     color: #fff
     display: block
     @include border-radius(10px)
+    &.active
+      &.color-magenta
+        background-color: #E6AED1
+      &.color-orange
+        background-color: #F8B7BB
+      &.color-cyan
+        background-color: #8DD5CD
+      &.color-violet
+        background-color: #A6A3CE
 
 #home-faq-slider
 
