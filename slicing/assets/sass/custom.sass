@@ -12,29 +12,58 @@
   color: #DDCFD2
   position: relative
 
+.us-comment-wrapper
+  .us-comment-name
+
+  .us-comment-date
+
+  .us-comment-text
+
 #tools
   margin-top: 88px
+  padding-top: 30px
 
 
 #home-top-slider
   padding-top: 0px
 
 #home-tab-set
-  .home-tab-control
-    line-height: 84px
-    background-color: #ddd
-    color: #fff
-    display: block
-    @include border-radius(10px)
-    &.active
-      &.color-magenta
-        background-color: #E6AED1
-      &.color-orange
-        background-color: #F8B7BB
-      &.color-cyan
-        background-color: #8DD5CD
-      &.color-violet
-        background-color: #A6A3CE
+  .nav-tabs
+    list-style: none
+    border-bottom-width: 0
+    li
+      a
+        line-height: 84px
+        background-color: #ddd
+        color: #fff
+        display: block
+        @include border-radius(10px)
+      &.active
+        a
+          &.color-magenta
+            background-color: #E6AED1
+          &.color-orange
+            background-color: #F8B7BB
+          &.color-cyan
+            background-color: #8DD5CD
+          &.color-violet
+            background-color: #A6A3CE
+  //.home-tab-control
+    //& > a
+    //  line-height: 84px
+    //  background-color: #ddd
+    //  color: #fff
+    //  display: block
+    //  @include border-radius(10px)
+    //&.active
+    //  &.color-magenta
+    //    background-color: #E6AED1
+    //  &.color-orange
+    //    background-color: #F8B7BB
+    //  &.color-cyan
+    //    background-color: #8DD5CD
+    //  &.color-violet
+    //    background-color: #A6A3CE
 
 #home-faq-slider
 
@@ -42,7 +71,7 @@
   .home-doctors-control
     display: block
     line-height: 56px
-    +background-image(linear-gradient(#eee, #ccc))
+    +background-image(linear-gradient(#FFFEFF, #DADADA))
     margin-bottom: 14px
     color: #444
 
@@ -61,8 +90,25 @@
   line-height: 28px
 
 #us-top-nav
+  +background-image(linear-gradient(#fff, #ddd))
   line-height: 60px
   margin-top: 28px
-  #logo
+  #us-top-nav-logo
     margin-bottom: -30px
     margin-top: -30px
+  #us-top-nav-menu
+    a
+      color: $gray
+      display: block
+      text-decoration: none
+  #us-top-nav-lang
+    a
+      color: $gray-light
+      display: block
+      text-decoration: none
+
+#us-footer-copyrigh
+  #us-footer-copyrigh-license
+    color: $gray-lighter
+  #us-footer-copyrigh-owner
+    color: $gray-light

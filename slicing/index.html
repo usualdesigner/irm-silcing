@@ -13,21 +13,6 @@
 </head>
 <body>
 
-<!--<nav class="navbar navbar-default navbar-fixed-top text-center us-top-video">-->
-    <!--Show video-->
-<!--</nav>-->
-<!--<nav class="navbar navbar-default navbar-fixed-top us-top-navbar" role="navigation">-->
-    <!--<div class="container">-->
-        <!--<div class="collapse navbar-collapse">-->
-            <!--<ul class="nav navbar-nav">-->
-                <!--<li class="active"><a href="#">Home</a></li>-->
-                <!--<li><a href="#">Link</a></li>-->
-                <!--<li><a href="#">Link</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</nav>-->
-
 <div class="container navbar-fixed-top" id="us-top-video">
     <div class="row">
         <div class="col-md-12 text-center">show video</div>
@@ -36,17 +21,44 @@
 
 <div class="container navbar-fixed-top" id="us-top-nav">
     <div class="row">
-        <div class="col-md-3" id="logo">
+        <div class="col-md-3" id="us-top-nav-logo">
             <a href="#">
                 <img src="assets/images/logo.png" alt=""/>
             </a>
         </div>
-        <div class="col-md-7">menu</div>
-        <div class="col-md-2">
+        <div class="col-md-7" id="us-top-nav-menu">
             <div class="row">
-                <div class="col-md-3">Rus</div>
-                <div class="col-md-3">Kaz</div>
-                <div class="col-md-3">Eng</div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+                <div class="col-md-2">
+                    <a href="#" class="text-center">Menu Item</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2" id="us-top-nav-lang">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <a href="#">Rus</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">Kaz</a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">Eng</a>
+                </div>
             </div>
         </div>
     </div>
@@ -79,20 +91,20 @@
 <div class="container bottom-distance" id="home-tab-set">
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#tab-1" class="text-center home-tab-control color-magenta active" data-toggle="tab">Item</a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#tab-2" class="text-center home-tab-control color-orange" data-toggle="tab">Item</a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#tab-3" class="text-center home-tab-control color-cyan" data-toggle="tab">Item</a>
-                </div>
-                <div class="col-md-3">
-                    <a href="#tab-4" class="text-center home-tab-control color-violet" data-toggle="tab">Item</a>
-                </div>
-            </div>
+            <ul class="nav-tabs row">
+                <li class="text-center active col-md-3">
+                    <a href="#tab-1" data-toggle="tab" class="color-magenta">Item</a>
+                </li>
+                <li class="text-center col-md-3">
+                    <a href="#tab-2" data-toggle="tab" class="color-orange">Item</a>
+                </li>
+                <li class="text-center col-md-3">
+                    <a href="#tab-3" data-toggle="tab" class="color-cyan">Item</a>
+                </li>
+                <li class="text-center col-md-3">
+                    <a href="#tab-4" data-toggle="tab" class="color-violet">Item</a>
+                </li>
+            </ul>
         </div>
     </div>
     <div class="row tab-content">
@@ -166,7 +178,31 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <h2 class="text-center us-home-subtitle">Frequently Asked Question</h2>
-            <div class="row">
+            <div class="row faq-slider">
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#">
+                        <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
+                    </a>
+                    <a href="#">
+                        Title of FAQ
+                    </a>
+                </div>
                 <div class="col-md-3 text-center">
                     <a href="#">
                         <img src="http://www.biologyreference.com/photos/doctor-specialist-3871.jpg" alt="" class="img-responsive"/>
@@ -224,319 +260,139 @@
         </div>
     </div>
     <div class="row tab-content">
-        <div class="col-md-10 col-md-offset-1 tab-pane active" id="doctors-tab-1">
-            <div class="row">
+        <div class="col-md-10 col-md-offset-1 tab-pane fade in active" id="doctors-tab-1">
+            <div class="row bxslider1">
                 <div class="col-md-3 text-center">
                     <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
                         <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
-                        Name of Doctor
+                        Name of Doctor1
                     </a>
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
                         <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
-                        Name of Doctor
+                        Name of Doctor2
                     </a>
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
                         <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
-                        Name of Doctor
+                        Name of Doctor3
                     </a>
                 </div>
                 <div class="col-md-3 text-center">
                     <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
                         <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
-                        Name of Doctor
+                        Name of Doctor4
+                    </a>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor5
                     </a>
                 </div>
             </div>
         </div>
-        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-2">
-            <div class="row">
+        <div class="col-md-10 col-md-offset-1 tab-pane fade" id="doctors-tab-2">
+            <div class="row bxslider2">
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
-                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor6
                     </a>
-                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
-                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor7
                     </a>
-                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
-                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor8
                     </a>
-                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-2-modal">
-                        <img src="http://www.sorrywatch.com/wp-content/uploads/2013/07/talk-to-your-doctor-small.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor9
                     </a>
-                    <div class="modal fade" id="doctor-2-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor10
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-3">
-            <div class="row">
+        <div class="col-md-10 col-md-offset-1 tab-pane fade" id="doctors-tab-3">
+            <div class="row bxslider3">
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
-                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor11
                     </a>
-                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
-                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor12
                     </a>
-                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
-                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor13
                     </a>
-                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-3-modal">
-                        <img src="http://www.rmrrecruitment.co.uk/wp-content/uploads/2013/06/1090-doctor-doctors-express-franchise.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor14
                     </a>
-                    <div class="modal fade" id="doctor-3-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor15
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="col-md-10 col-md-offset-1 tab-pane" id="doctors-tab-4">
-            <div class="row">
+        <div class="col-md-10 col-md-offset-1 tab-pane fade" id="doctors-tab-4">
+            <div class="row bxslider4">
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
-                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
                     </a>
-                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
-                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
                     </a>
-                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
-                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
                     </a>
-                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-3 text-center">
-                    <a href="#" data-toggle="modal" data-target="#doctor-4-modal">
-                        <img src="http://4photos.net/photosv5/smiling_medical_doctor_with_stethoscope_on_the_hospitals_background_1350367266.jpg" alt="" class="img-responsive"/>
-                        Name of other Doctor
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
                     </a>
-                    <div class="modal fade" id="doctor-4-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <a href="#" data-toggle="modal" data-target="#doctor-1-modals">
+                        <img src="http://images.wisegeek.com/orthopedic-doctor-with-xray.jpg" alt="" class="img-responsive"/>
+                        Name of Doctor
+                    </a>
                 </div>
             </div>
         </div>
@@ -673,9 +529,10 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 <script src="assets/js/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="assets/js/custom.js"></script>
+
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </body>
 </html>
