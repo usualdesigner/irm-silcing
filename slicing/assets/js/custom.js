@@ -1,51 +1,52 @@
-var bxslider1;
-var bxslider2;
-var bxslider3;
-var bxslider4;
+var faqSlider,
+    doctorSlidersDep1,
+    doctorSlidersDep2,
+    doctorSlidersDep3,
+    doctorSlidersDep4;
 
-$(function() {
+$(function () {
 
-    var faqSlider = $('.faq-slider').bxSlider({
+    faqSlider = $('#home-faq-slider .us-faq-bx-slider-enable').bxSlider({
         useCSS: false,
         minSlides: 4,
         maxSlides: 4,
-        slideWidth: 250,
+        slideWidth: 400,
+        infiniteLoop: false,
+        pager: false
+    });
+    doctorSlidersDep1 = $('#home-doctors-slider .us-dep1-bx-slider-enable').bxSlider({
+        useCSS: false,
+        minSlides: 4,
+        maxSlides: 4,
+        slideWidth: 400,
         infiniteLoop: false
     });
-
-    bxslider1 = $('.bxslider1').bxSlider({
+    doctorSlidersDep2 = $('#home-doctors-slider .us-dep2-bx-slider-enable').bxSlider({
         useCSS: false,
         minSlides: 4,
         maxSlides: 4,
-        slideWidth: 250,
+        slideWidth: 400,
         infiniteLoop: false
     });
-    bxslider2 = $('.bxslider2').bxSlider({
+    doctorSlidersDep3 = $('#home-doctors-slider .us-dep3-bx-slider-enable').bxSlider({
         useCSS: false,
         minSlides: 4,
         maxSlides: 4,
-        slideWidth: 250,
+        slideWidth: 400,
         infiniteLoop: false
     });
-    bxslider3 = $('.bxslider3').bxSlider({
+    doctorSlidersDep4 = $('#home-doctors-slider .us-dep4-bx-slider-enable').bxSlider({
         useCSS: false,
         minSlides: 4,
         maxSlides: 4,
-        slideWidth: 250,
-        infiniteLoop: false
-    });
-    bxslider4= $('.bxslider4').bxSlider({
-        useCSS: false,
-        minSlides: 4,
-        maxSlides: 4,
-        slideWidth: 250,
+        slideWidth: 400,
         infiniteLoop: false
     });
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-        bxslider1.reloadSlider();
-        bxslider2.reloadSlider();
-        bxslider3.reloadSlider();
-        bxslider4.reloadSlider();
+        doctorSlidersDep1.reloadSlider();
+        doctorSlidersDep2.reloadSlider();
+        doctorSlidersDep3.reloadSlider();
+        doctorSlidersDep4.reloadSlider();
     })
 });

@@ -1,10 +1,26 @@
+.no-gap
+  padding-left: 0
+  padding-right: 0
+.us-link-1
+  border: 1px solid
+  padding: 0 1em
+  line-height: 2em
+  display: inline-block
+  @include border-radius(14px)
+  text-decoration: none
+  &:hover
+    background-color: $link-color
+    color: #fff
+    text-decoration: none
+    border-color: transparent
+
 .container.gray
   background: #eee
 .container
   background: #fff
-.container.bottom-distance
+.bottom-distance
   padding-bottom: 28px
-.container.top-distance
+.top-distance
   padding-top: 28px
 
 .us-home-subtitle
@@ -23,20 +39,38 @@
   margin-top: 88px
   padding-top: 30px
 
-
 #home-top-slider
   padding-top: 0px
-
+  .carousel
+    position: relative
+    .carousel-indicators
+      display: table
+      width: auto
+      left: auto
+      right: 8.33333%
+      li
+        width: 24px
+        height: 24px
+        background-color: transparent
+        background-color: adjust-lightness($link-color, 25%)
+        @include border-radius(100%)
+        border: none
+        margin: 0
+        &.active
+          background-color: #EC1E53
+          +box-shadow(rgba(0,0,0,.5) 0px 4px 4px inset)
 #home-tab-set
   .nav-tabs
     list-style: none
     border-bottom-width: 0
+    padding-left: 0
     li
       a
         line-height: 84px
-        background-color: #ddd
+        background: url('../images/bubbless.png') #ddd
         color: #fff
         display: block
+        font-size: 1.5em
         @include border-radius(10px)
       &.active
         a
@@ -48,34 +82,76 @@
             background-color: #8DD5CD
           &.color-violet
             background-color: #A6A3CE
-  //.home-tab-control
-    //& > a
-    //  line-height: 84px
-    //  background-color: #ddd
-    //  color: #fff
-    //  display: block
-    //  @include border-radius(10px)
-    //&.active
-    //  &.color-magenta
-    //    background-color: #E6AED1
-    //  &.color-orange
-    //    background-color: #F8B7BB
-    //  &.color-cyan
-    //    background-color: #8DD5CD
-    //  &.color-violet
-    //    background-color: #A6A3CE
+
+#home-faq-slider, #home-doctors-slider
+  .bx-controls-direction
+    .bx-prev, .bx-next
+      display: block
+      position: absolute
+      width: 57px
+      height: 57px
+      top: 60px
+      font-size: 0
+    .bx-prev
+      left: -71px
+      background: url('../images/slider-prev-button.png')
+      &:hover
+        background: url('../images/slider-prev-active-button.png')
+    .bx-next
+      right: -71px
+      background: url('../images/slider-next-button.png')
+      &:hover
+        background: url('../images/slider-next-active-button.png')
 
 #home-faq-slider
+  .bx-wrapper
+    position: relative
 
 #home-doctors-slider
-  .home-doctors-control
-    display: block
-    line-height: 56px
+  .bx-pager
+    display: table
+    margin: 0 auto
+    .bx-pager-item
+      display: inline-block
+      height: 28px
+      width: 28px
+      font-size: 0
+      padding: 4px
+      .bx-pager-link
+        display: block
+        width: 100%
+        height: 100%
+        border: 1px solid #ddd
+        @include border-radius(100%)
+        &.active
+          border-color: adjust-lightness($link-color, 25%)
+          background-color: adjust-lightness($link-color, 25%)
+  .us-tabs-wrapper
+    +box-shadow(#c8c8c8 0px 0px 1px)
     +background-image(linear-gradient(#FFFEFF, #DADADA))
     margin-bottom: 14px
+    @include border-radius(6px)
     color: #444
-
-#home-latest-news
+    .nav-tabs
+      list-style: none
+      padding-left: 0
+      margin-bottom: 0
+      li
+        a
+          background-color: transparent
+          border: none
+          line-height: 56px
+          display: block
+          color: #333
+          @include border-radius(0)
+        &.active
+          +background-image(linear-gradient(#CECECE, #E4E5E5))
+        &:first-of-type
+          @include border-left-radius(6px)
+        &:last-of-type
+          @include border-right-radius(6px)
+        a, a:focus
+          outline: none
 
 #home-latest-news
 
@@ -107,8 +183,8 @@
       display: block
       text-decoration: none
 
-#us-footer-copyrigh
-  #us-footer-copyrigh-license
-    color: $gray-lighter
-  #us-footer-copyrigh-owner
-    color: $gray-light
+#us-footer-copyright
+  #us-footer-copyright-license
+    color: adjust-lightness($gray, 35%)
+  #us-footer-copyright-owner
+    color: $gray
