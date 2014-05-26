@@ -13,7 +13,6 @@
     color: #fff
     text-decoration: none
     border-color: transparent
-
 .container.gray
   background: #eee
 .container
@@ -22,23 +21,31 @@
   padding-bottom: 28px
 .top-distance
   padding-top: 28px
-
 .us-home-subtitle
   text-transform: uppercase
   color: #DDCFD2
   position: relative
-
-.us-comment-wrapper
-  .us-comment-name
-
-  .us-comment-date
-
-  .us-comment-text
-
-#tools
-  margin-top: 88px
-  padding-top: 30px
-
+#us-top-video
+  background-color: rgba(0, 0, 0, 0.5)
+  color: #fff
+  line-height: 28px
+#us-top-nav
+  +background-image(linear-gradient(#fff, #ddd))
+  line-height: 60px
+  margin-top: 28px
+  #us-top-nav-logo
+    margin-bottom: -30px
+    margin-top: -30px
+  #us-top-nav-menu
+    a
+      color: $gray
+      display: block
+      text-decoration: none
+  #us-top-nav-lang
+    a
+      color: $gray-light
+      display: block
+      text-decoration: none
 #home-top-slider
   padding-top: 0px
   .carousel
@@ -154,35 +161,19 @@
           outline: none
 
 #home-latest-news
-
+  //
+.us-comment-wrapper
+  .us-comment-name
+    .us-comment-date
+      .us-comment-text
+        //
+#tools
+  margin-top: 88px
+  padding-top: 30px
 .us-footer-navbar
   display: table
   margin: 0 auto
   float: none
-
-#us-top-video
-  background-color: rgba(0, 0, 0, 0.5)
-  color: #fff
-  line-height: 28px
-
-#us-top-nav
-  +background-image(linear-gradient(#fff, #ddd))
-  line-height: 60px
-  margin-top: 28px
-  #us-top-nav-logo
-    margin-bottom: -30px
-    margin-top: -30px
-  #us-top-nav-menu
-    a
-      color: $gray
-      display: block
-      text-decoration: none
-  #us-top-nav-lang
-    a
-      color: $gray-light
-      display: block
-      text-decoration: none
-
 #us-footer-copyright
   #us-footer-copyright-license
     color: adjust-lightness($gray, 35%)
