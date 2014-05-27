@@ -74,7 +74,11 @@
     li
       a
         line-height: 84px
-        background: url('../images/bubbless.png') #ddd
+        height: 97px
+        background-image: url('../images/bubbless.png'), url('../images/home-tab-set-button.png')
+        background-position: center center, center bottom
+        background-repeat: repeat, no-repeat
+        background-color: #ddd
         color: #fff
         display: block
         font-size: 1.5em
@@ -160,8 +164,19 @@
         a, a:focus
           outline: none
 
-#home-latest-news
-  //
+#us-home-latest-news
+  .us-home-latest-news-title
+    margin-top: 0
+  .us-home-latest-news-date
+    background: url('../images/us-home-latest-news-date.png') no-repeat center top
+    height: 70px
+    margin-bottom: 8px
+    .h1, .h5
+      color: #fff
+    .h1
+      margin: 6px 0 0 0
+    .h5
+      margin: 0
 .us-comment-wrapper
   .us-comment-name
     .us-comment-date
