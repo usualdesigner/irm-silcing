@@ -49,4 +49,10 @@ $(function () {
         doctorSlidersDep3.reloadSlider();
         doctorSlidersDep4.reloadSlider();
     })
+
+    $('#menu-item-250').on('click', function(e){
+
+        $('#contactsModal').modal('show');
+
+    })
 });

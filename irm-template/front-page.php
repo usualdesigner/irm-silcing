@@ -1,88 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/sergey.css">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <style>
-        @font-face {
-            font-family: "wf_SegoeUILight";
-            src: url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.eot') format('embedded-opentype'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.svg') format('svg'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.ttf') format('truetype'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.woff') format('woff');
-        }
-        body {
-            font-family: "wf_SegoeUILight";
-        }
-        .us-home-subtitle{
-            border-bottom: 1px solid #DDCFD2;
-            margin-bottom: 33px;
-        }
-        .us-home-subtitle > .text{
-            padding: 0 1em;
-            background-color: #fff;
-            display: table;
-            margin: 0 auto -15px;
-        }
-    </style>
-</head>
-<body>
-<div class="container navbar-fixed-top" id="us-top-video">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            show video
-        </div>
-    </div>
-</div>
-<div class="container navbar-fixed-top" id="us-top-nav">
-    <div class="row">
-        <div class="col-md-3" id="us-top-nav-logo">
-            <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""/>
-            </a>
-        </div>
-        <div class="col-md-7" id="us-top-nav-menu">
-            <div class="row">
-                <div class="col-md-2">
-                    <a href="#" class="text-center">Menu Item</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" class="text-center">Menu Item</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" class="text-center">Menu Item</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" class="text-center">Menu Item</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" class="text-center">Menu Item</a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" class="text-center" data-toggle="modal" data-target="#contactsModal">Contacts</a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2" id="us-top-nav-lang">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <a href="#">Rus</a>
-                </div>
-                <div class="col-md-3 text-center">
-                    <a href="#">Kaz</a>
-                </div>
-                <div class="col-md-3 text-center">
-                    <a href="#">Eng</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php get_header(); ?>
 
 <?php if (have_rows('top_slider_gallery')): ?>
     <div class="container bottom-distance" id="home-top-slider">
@@ -108,69 +24,6 @@
         </div>
     </div>
 <?php endif; ?>
-
-<div class="modal fade" id="contactsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="h2">Контакты</div>
-                        <p>
-                            Спонсорство индуцирует экспериментальный стиль менеджмента, используя опыт предыдущих кампаний. До недавнего времени считалось, что коммуникация отталкивает анализ зарубежного опыта, опираясь на опыт западных коллег. Косвенная реклама экономит связанный медиамикс, отвоевывая рыночный сегмент. Рекламный макет, конечно, детерминирует связанный PR, признавая определенные рыночные тенденции.
-                        </p>
-                        <div class="h3">
-                            Режим работы
-                        </div>
-                        <h5>
-                            Пн-Пт | 08:00 - 18:00<br/>
-                            Сб | 08:00 - 14:00<br/>
-                            Вс | Выходной
-                        </h5>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="h2">Карта проезда</div>
-                        <p>
-                            <img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=427x200&maptype=roadmap
-&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
-&markers=color:red%7Ccolor:red%7Clabel:C%7C40.718217,-73.998284&sensor=false" alt=""/>
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="h4">Телефоны</div>
-                        <div class="h5">
-                            +7 (727) 234-34-34<br/>
-                            +7 (727) 234-34-34
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="h4">Факсы</div>
-                        <div class="h5">
-                            +7 (727) 234-34-34<br/>
-                            +7 (727) 234-34-34
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="h4">Телефон доверия</div>
-                        <div class="h5">
-                            +7 (727) 234-34-34<br/>
-                            +7 (727) 234-34-34
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="h4">Мобильные телефоны</div>
-                        <div class="h5">
-                            +7 (727) 234-34-34<br/>
-                            +7 (727) 234-34-34
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <?php if (have_rows('middle_slider_gallery')): ?>
 <div class="container bottom-distance" id="home-tab-set">
@@ -226,7 +79,8 @@
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center us-home-subtitle">
                     <div class="text">
-                        <div class="text">Frequently Asked Question</div>
+                        <?php $faqPostType = get_post_type_object( 'faq' ); ?>
+                        <div class="text"><?php echo $faqPostType->labels->name; ?></div>
                     </div>
                 </h2>
             </div>
@@ -260,7 +114,8 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <h2 class="text-center us-home-subtitle">
-                <div class="text">Our Team</div>
+                <?php $doctorsPostType = get_post_type_object( 'doctor' ); ?>
+                <div class="text"><?php echo $doctorsPostType->labels->name; ?></div>
             </h2>
         </div>
     </div>
@@ -342,7 +197,8 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center us-home-subtitle">
-                    <div class="text">Latest News</div>
+                    <?php $newsPostType = get_post_type_object( 'news' ); ?>
+                    <div class="text"><?php echo $newsPostType->labels->name; ?></div>
                 </h2>
             </div>
         </div>
@@ -360,7 +216,9 @@
                                         <?php echo get_the_date('M'); ?>
                                     </div>
                                 </div>
-                                <h4 class="col-md-9 us-home-latest-news-title"><?php the_title(); ?></h4>
+                                <h4 class="col-md-9 us-home-latest-news-title">
+                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                </h4>
                             </div>
                             <div class="row">
                                 <div class="col-md-12"><?php get_the_content(); ?></div>
@@ -375,50 +233,5 @@
         </div>
     <?php endif; ?>
 </div>
-<div class="container top-distance gray" id="social">
-    <div class="row">
-        <div class="col-md-2 col-md-offset-5 text-center">
-            <div class="row">
-                <div class="col-md-6 text-center">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yt.png" alt="" class="img-responsive"/>
-                    </a>
-                </div>
-                <div class="col-md-6 text-center">
-                    <a href="#">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fb.png" alt="" class="img-responsive"/>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container gray bottom-distance" id="menu">
-    <div class="row">
-        <ul class="nav navbar-nav us-footer-navbar">
-            <li class="active"><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-        </ul>
-    </div>
-</div>
-<div class="container gray" id="us-footer-copyright">
-    <div class="text-center" id="us-footer-copyright-owner">
-        <p>
-            © ИРМ, 2014. Все права защищены.
-        </p>
-    </div>
-    <div class="text-center" id="us-footer-copyright-license">
-        <p>
-            Государственная лицензия АА-4 №0105404 от 14.04.2011<br/>бессрочно выдана бла бла...
-        </p>
-    </div>
-</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.bxslider/jquery.bxslider.min.js"></script>
-<script src="<?php echo get_template_directory_uri(); ?>/assets/js/custom.js"></script>
-</body>
-</html>
+
+<?php get_footer(); ?>

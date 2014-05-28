@@ -73,14 +73,17 @@
     padding-left: 0
     li
       a
-        line-height: 84px
-        height: 97px
+        height: 84px
+        width: 230px
+        padding-bottom: 13px
+        display: table-cell
+        text-decoration: none
+        vertical-align: middle
         background-image: url('../images/bubbless.png'), url('../images/home-tab-set-button.png')
         background-position: center center, center bottom
         background-repeat: repeat, no-repeat
         background-color: #ddd
         color: #fff
-        display: block
         font-size: 1.5em
         @include border-radius(10px)
         margin: 0
@@ -171,6 +174,9 @@
 #us-home-latest-news
   .us-home-latest-news-title
     margin-top: 0
+    a
+      text-decoration: none
+      color: #333
   .us-home-latest-news-date
     background: url('../images/us-home-latest-news-date.png') no-repeat center top
     height: 70px
@@ -198,3 +204,11 @@
     color: adjust-lightness($gray, 35%)
   #us-footer-copyright-owner
     color: $gray
+
+#menu-primary-menu
+  @extend .row
+  margin-bottom: 0
+  list-style: none
+  li
+    text-align: center
+    @extend .col-md-2
