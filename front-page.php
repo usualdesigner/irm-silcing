@@ -42,7 +42,7 @@
                         } elseif ($_c == 3) {
                             $_color = 'violet';
                         } ?>
-                        <a href="#tab-<?php echo $_c; ?>" data-toggle="tab" class="color-<?php echo $_color; ?>">
+                        <a href="#tab-<?php echo $_c; ?>" data-toggle="tab" class="color-<?php echo $_color; ?>" style="background-position: <?php echo rand(0, 300); ?>px <?php echo rand(0, 93); ?>px, center bottom;">
                             <?php the_sub_field('title_of_tab_button'); ?>
                         </a>
                     </li>
@@ -81,7 +81,7 @@
                     <div class="text">
 <!--                        --><?php //$faqPostType = get_post_type_object( 'faq' ); ?>
 <!--                        <div class="text">--><?php //echo $faqPostType->labels->name; ?><!--</div>-->
-                        <div class="text">Часто задаваемые вопросы/div>
+                        <div class="text">Часто задаваемые вопросы</div>
                     </div>
                 </h2>
             </div>

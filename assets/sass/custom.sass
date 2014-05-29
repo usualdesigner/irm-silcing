@@ -29,6 +29,10 @@ a
   background-color: rgba(0, 0, 0, 0.5)
   color: #fff
   line-height: 28px
+  a
+    background: url('../images/show-video-image.png') center center no-repeat
+    display: block
+    height: 28px
 #us-top-nav
   +background-image(linear-gradient(#fff, #ddd))
   line-height: 60px
@@ -48,6 +52,9 @@ a
   padding-top: 0px
   .carousel
     position: relative
+    .carousel-inner
+      .item
+        +transition-duration(1.2s)
     .carousel-indicators
       display: table
       width: auto
@@ -77,7 +84,6 @@ a
         display: table-cell
         vertical-align: middle
         background-image: url('../images/bubbless.png'), url('../images/home-tab-set-button.png')
-        background-position: center center, center bottom
         background-repeat: repeat, no-repeat
         background-color: #ddd
         color: #fff

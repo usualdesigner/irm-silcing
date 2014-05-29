@@ -35,7 +35,7 @@
 <div class="container navbar-fixed-top" id="us-top-video">
     <div class="row">
         <div class="col-md-12 text-center">
-            show video
+            <a href="#"></a>
         </div>
     </div>
 </div>
