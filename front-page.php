@@ -127,7 +127,7 @@
                 <?php $_d = 0; ?>
                 <?php foreach ($departaments as $_departament): ?>
                     <li class="col-md-3 text-center no-gap <?php echo ($_d == 0) ? 'active' : '';?>">
-                        <a href="#doctors-tab-<?php echo $_d; ?>" class="text-center home-doctors-control-item" data-toggle="tab">
+                        <a href="#doctors-tab-<?php echo $_departament->term_id; ?>" class="text-center home-doctors-control-item" data-toggle="tab">
                             <?php echo $_departament->name; ?>
                         </a>
                     </li>
@@ -141,10 +141,11 @@
     <?php $_d = 0; ?>
     <?php foreach ($departaments as $_departament): ?>
         <?php $_d++; ?>
-        <div class="col-md-8 col-md-offset-2 tab-pane fade in <?php echo ($_d == 1) ? 'active' : '';?>" id="doctors-tab-<?php echo $_d; ?>">
+        <div class="col-md-8 col-md-offset-2 tab-pane fade in <?php echo ($_d == 1) ? 'active' : '';?>" id="doctors-tab-<?php echo $_departament->term_id; ?>">
             <div class="row">
                 <div class="us-dep<?php echo $_d; ?>-bx-slider-enable">
-                    <?php query_posts(array('posts_per_page' => -1, 'post_type' => 'doctor', 'tax_query' => array('taxonomy' => 'departament', 'field' => 'term_id', 'terms' => $_departament->term_id))); ?>
+                    <?php wp_reset_postdata(); ?>
+                    <?php query_posts(array('posts_per_page' => -1, 'post_type' => 'doctor','tax_query' => array(array('taxonomy' => 'departaments','field' => 'term_id','terms' => $_departament->term_id)))); ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <div class="col-md-3 text-center">
                             <div class="row">
