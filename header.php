@@ -31,7 +31,7 @@
         }
     </style>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <div class="container navbar-fixed-top" id="us-top-video">
     <div class="row">
         <div class="col-md-12 text-center">

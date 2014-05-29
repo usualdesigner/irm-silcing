@@ -24,3 +24,18 @@ register_sidebar( array(
     'before_title' => '<h3 class="widget-title">',
     'after_title' => '</h3>',
 ) );
+
+function us_search_form() {
+    $form = '
+    <form role="search" method="get" id="searchform" class="searchform" action="' . home_url( '/' ) . '" >
+        <div class="form-group">
+            <input type="text" class="form-control" value="' . get_search_query() . '" name="s" id="s" placeholder="' . __( 'Search' ) . '">
+        </div>
+    </form>';
+
+    return $form;
+}
+
+add_filter( 'get_search_form', 'us_search_form' );
+
+add_theme_support( 'html5', array( 'search-form' ) );

@@ -27,21 +27,6 @@
     </h1>
     <hr/>
 </div>
-<!--<div class="container bottom-distance" id="info">-->
-<!--    <div class="row">-->
-<!--        <div class="col-md-2 col-md-offset-3 text-right">-->
-<!--            Created by 24.04.12-->
-<!--        </div>-->
-<!--        <div class="col-md-2 text-center">-->
-<!--            <span class="glyphicon glyphicon-refresh"></span> Без рубрики-->
-<!--        </div>-->
-<!--        <div class="col-md-2 text-left">-->
-<!--            --><?php //if ( comments_open() && ! is_single() ) : ?>
-<!--                --><?php //comments_popup_link( 'Нет комментариев', '1 комментарий', '% комментариев', 'comments-link', 'Комментарии отключены'); ?>
-<!--            --><?php //endif ?>
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
 <div class="container top-distance bottom-distance" id="page">
     <div class="row">
@@ -49,6 +34,8 @@
             <div class="row">
                 <div class="col-md-8">
                     <?php the_content(); ?>
+                    <hr/>
+                    <?php comments_template(); ?>
                 </div>
                 <div class="col-md-4">
                     <?php get_sidebar(); ?>
