@@ -16,11 +16,11 @@
         </div>
     </div>
 </div>
-<div class="container gray bottom-distance" id="menu">
-    <div class="row">
-        <?php wp_nav_menu(array('menu' => 'Footer Menu', 'menu_class' => 'nav navbar-nav us-footer-navbar', 'container' => '')); ?>
-    </div>
-</div>
+<!--<div class="container gray bottom-distance" id="menu">-->
+<!--    <div class="row">-->
+<!--        --><?php //wp_nav_menu(array('menu' => 'Footer Menu', 'menu_class' => 'nav navbar-nav us-footer-navbar', 'container' => '')); ?>
+<!--    </div>-->
+<!--</div>-->
 <div class="container gray" id="us-footer-copyright">
     <div class="text-center" id="us-footer-copyright-owner">
         <p>

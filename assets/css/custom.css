@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'border-radius'.
-        on line 9 of /home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass, in `border-radius'
-        from line 9 of /home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass
+        on line 11 of /work/irm-silcing/irm-template/assets/sass/custom.sass, in `border-radius'
+        from line 11 of /work/irm-silcing/irm-template/assets/sass/custom.sass
 
 Backtrace:
-/home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass:9:in `border-radius'
-/home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass:9
+/work/irm-silcing/irm-template/assets/sass/custom.sass:11:in `border-radius'
+/work/irm-silcing/irm-template/assets/sass/custom.sass:11
 /var/lib/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /var/lib/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
 /var/lib/gems/1.9.1/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 9 of /home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass, in `border-radius'\A         from line 9 of /home/usualdesigner/work/irm-silcing/slicing/assets/sass/custom.sass"; }
+  content: "Syntax error: Undefined mixin 'border-radius'.\A         on line 11 of /work/irm-silcing/irm-template/assets/sass/custom.sass, in `border-radius'\A         from line 11 of /work/irm-silcing/irm-template/assets/sass/custom.sass"; }

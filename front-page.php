@@ -79,8 +79,9 @@
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center us-home-subtitle">
                     <div class="text">
-                        <?php $faqPostType = get_post_type_object( 'faq' ); ?>
-                        <div class="text"><?php echo $faqPostType->labels->name; ?></div>
+<!--                        --><?php //$faqPostType = get_post_type_object( 'faq' ); ?>
+<!--                        <div class="text">--><?php //echo $faqPostType->labels->name; ?><!--</div>-->
+                        <div class="text">Часто задаваемые вопросы/div>
                     </div>
                 </h2>
             </div>
@@ -114,8 +115,9 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <h2 class="text-center us-home-subtitle">
-                <?php $doctorsPostType = get_post_type_object( 'doctor' ); ?>
-                <div class="text"><?php echo $doctorsPostType->labels->name; ?></div>
+<!--                --><?php //$doctorsPostType = get_post_type_object( 'doctor' ); ?>
+<!--                <div class="text">--><?php //echo $doctorsPostType->labels->name; ?><!--</div>-->
+                <div class="text">Наша команда</div>
             </h2>
         </div>
     </div>
@@ -197,8 +199,9 @@
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="text-center us-home-subtitle">
-                    <?php $newsPostType = get_post_type_object( 'news' ); ?>
-                    <div class="text"><?php echo $newsPostType->labels->name; ?></div>
+<!--                    --><?php //$newsPostType = get_post_type_object( 'news' ); ?>
+<!--                    <div class="text">--><?php //echo $newsPostType->labels->name; ?><!--</div>-->
+                    <div class="text">Новости</div>
                 </h2>
             </div>
         </div>
