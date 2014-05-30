@@ -167,7 +167,7 @@
         <?php query_posts(array('posts_per_page' => -1, 'post_type' => 'doctor')); ?>
         <?php while (have_posts()) : the_post(); ?>
             <div class="modal fade" id="doctor-<?php the_ID() ?>-modals" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>

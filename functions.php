@@ -39,3 +39,40 @@ function us_search_form() {
 add_filter( 'get_search_form', 'us_search_form' );
 
 add_theme_support( 'html5', array( 'search-form' ) );
+
+function usCustomCommentCallback($comment, $args, $depth){
+
+    $GLOBALS['comment'] = $comment;
+    extract($args, EXTR_SKIP);
+    ?>
+
+    <div class="row us-comment-wrapper" id="comment-<?php comment_ID() ?>">
+        <div class="col-md-1">
+            <?php echo get_avatar( $comment, 40 ); ?>
+        </div>
+        <div class="col-md-11">
+            <div class="us-comment-name">
+                <?php printf( __( '<cite class="fn">%s</cite> <span class="says">says:</span>' ), get_comment_author_link() ); ?>
+            </div>
+            <div class="us-comment-date text-muted">
+                <?php printf( __('%1$s at %2$s'), get_comment_date(),  get_comment_time() ); ?></a><?php edit_comment_link( __( '(Edit)' ), '  ', '' ); ?>
+            </div>
+            <div class="us-comment-text">
+                <?php comment_text(); ?>
+                <?php if ( $comment->comment_approved == '0' ) : ?>
+                    <div class="alert alert-warning">
+                        <?php _e( 'Your comment is awaiting moderation.' ); ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+            <hr>
+        </div>
+<?php
+}
+
+add_filter('get_avatar','change_avatar_css');
+
+function change_avatar_css($class) {
+    $class = str_replace("class='avatar", "class='img-responsive img-circle ", $class) ;
+    return $class;
+}

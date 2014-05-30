@@ -1514,7 +1514,7 @@ hr {
 
 /* line 10, ../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .us-comment-wrapper .us-comment-name, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -1531,8 +1531,9 @@ h6 .small,
 .h1 small,
 .h1 .small, .h2 small,
 .h2 .small, .h3 small,
-.h3 .small, .h4 small,
-.h4 .small, .h5 small,
+.h3 .small, .h4 small, .us-comment-wrapper .us-comment-name small,
+.h4 .small,
+.us-comment-wrapper .us-comment-name .small, .h5 small,
 .h5 .small, .h6 small,
 .h6 .small {
   font-weight: normal;
@@ -1561,7 +1562,7 @@ h3 .small, .h3 small,
 }
 
 /* line 37, ../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
-h4, .h4,
+h4, .h4, .us-comment-wrapper .us-comment-name,
 h5, .h5,
 h6, .h6 {
   margin-top: 10px;
@@ -1569,8 +1570,9 @@ h6, .h6 {
 }
 /* line 42, ../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
 h4 small,
-h4 .small, .h4 small,
+h4 .small, .h4 small, .us-comment-wrapper .us-comment-name small,
 .h4 .small,
+.us-comment-wrapper .us-comment-name .small,
 h5 small,
 h5 .small, .h5 small,
 .h5 .small,
@@ -1596,7 +1598,7 @@ h3, .h3 {
 }
 
 /* line 50, ../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
-h4, .h4 {
+h4, .h4, .us-comment-wrapper .us-comment-name {
   font-size: 18px;
 }
 
@@ -8225,42 +8227,47 @@ a, a:focus {
   margin: 0;
 }
 
-/* line 195, ../sass/custom.sass */
+/* line 191, ../sass/custom.sass */
+.us-comment-wrapper .us-comment-name {
+  margin-top: 0;
+}
+
+/* line 197, ../sass/custom.sass */
 #tools {
   margin-top: 88px;
   padding-top: 30px;
 }
-/* line 198, ../sass/custom.sass */
+/* line 200, ../sass/custom.sass */
 #tools .us-page-breadcrumbs {
   line-height: 34px;
 }
 
-/* line 200, ../sass/custom.sass */
+/* line 202, ../sass/custom.sass */
 .us-footer-navbar {
   display: table;
   margin: 0 auto;
   float: none;
 }
 
-/* line 205, ../sass/custom.sass */
+/* line 207, ../sass/custom.sass */
 #us-footer-copyright #us-footer-copyright-license {
   color: #afafaf;
 }
-/* line 207, ../sass/custom.sass */
+/* line 209, ../sass/custom.sass */
 #us-footer-copyright #us-footer-copyright-owner {
   color: #555555;
 }
 
-/* line 210, ../sass/custom.sass */
+/* line 212, ../sass/custom.sass */
 #menu-primary-menu {
   margin-bottom: 0;
   list-style: none;
 }
-/* line 214, ../sass/custom.sass */
+/* line 216, ../sass/custom.sass */
 #menu-primary-menu li {
   text-align: center;
 }
-/* line 217, ../sass/custom.sass */
+/* line 219, ../sass/custom.sass */
 #menu-primary-menu li.current-menu-item {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#dddddd, #ffffff);

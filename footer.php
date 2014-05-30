@@ -1,4 +1,4 @@
-<div class="container top-distance gray" id="social">
+<div class="container top-distance bottom-distance gray" id="social">
     <div class="row">
         <div class="col-md-2 col-md-offset-5 text-center">
             <div class="row">
