@@ -145,7 +145,7 @@
             <div class="row">
                 <div class="us-dep<?php echo $_d; ?>-bx-slider-enable">
                     <?php wp_reset_postdata(); ?>
-                    <?php query_posts(array('posts_per_page' => -1, 'post_type' => 'doctor','tax_query' => array(array('taxonomy' => 'departaments','field' => 'term_id','terms' => $_departament->term_id)))); ?>
+                    <?php query_posts(array('order' => 'ASC', 'orderby' => 'id', 'posts_per_page' => -1, 'post_type' => 'doctor','tax_query' => array(array('taxonomy' => 'departaments','field' => 'term_id','terms' => $_departament->term_id)))); ?>
                     <?php while (have_posts()) : the_post(); ?>
                         <div class="col-md-3 text-center">
                             <div class="row">

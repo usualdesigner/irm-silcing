@@ -32,7 +32,7 @@
 <?php endif; ?>
 
 <?php comment_form(array(
-    'comment_field' => '<textarea id="comment" name="comment" class="form-control" rows="3" placeholder="'. _x( 'Comment', 'noun' ) .'"></textarea>',
+    'comment_field' => '<textarea id="comment" name="comment" class="form-control" rows="3" placeholder="'. _x( 'Comment', 'noun' ) .'"></textarea><br/>',
     'fields' => array(
         'author' =>
             '<div class="form-group">
@@ -46,13 +46,13 @@
                 <input id="email" name="email" type="email" placeholder="' . __( 'Email' ) . '" class="form-control" value="' . esc_attr( $commenter['comment_author_email'] ) .
             '">
             </div>',
-        'url' =>
-            '<div class="form-group">
-        <label for="url">' . __( 'Website' ) . '</label>
-                <input id="url" name="url" type="text" placeholder="' . __( 'Website' ) . '" class="form-control" value="' . esc_attr( $commenter['comment_author_url'] ) .
-            '">
-            </div>',
+//        'url' =>
+//            '<div class="form-group">
+//        <label for="url">' . __( 'Website' ) . '</label>
+//                <input id="url" name="url" type="text" placeholder="' . __( 'Website' ) . '" class="form-control" value="' . esc_attr( $commenter['comment_author_url'] ) .
+//            '">
+//            </div>',
     ),
-        'label_submit' => __( 'Send Vote' ),
-    'title_reply' => __( 'Leave Vote' )
+        'label_submit' => 'Отправить Отзыв',
+    'title_reply' => 'Оставьте Ваш отзыв'
 )); ?>

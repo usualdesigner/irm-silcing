@@ -76,3 +76,13 @@ function change_avatar_css($class) {
     $class = str_replace("class='avatar", "class='img-responsive img-circle ", $class) ;
     return $class;
 }
+
+function mytheme_init() {
+    add_filter('comment_form_defaults','mytheme_comments_form_defaults');
+}
+add_action('after_setup_theme','mytheme_init');
+
+function mytheme_comments_form_defaults($default) {
+    unset($default['comment_notes_after']);
+    return $default;
+}

@@ -8,12 +8,12 @@
     <div class="row">
         <div class="col-md-10 col-md-offset-1">
             <div class="row">
-                <div class="col-md-6 us-page-breadcrumbs">
+                <div class="col-md-9 us-page-breadcrumbs">
                     <?php if(function_exists('bcn_display')) :?>
                         <?php bcn_display(); ?>
                     <?php endif; ?>
                 </div>
-                <div class="col-md-3 col-md-offset-3 us-page-search">
+                <div class="col-md-3 us-page-search">
                     <?php get_search_form(); ?>
                 </div>
             </div>
