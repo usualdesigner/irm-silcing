@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/sergey.css">
@@ -34,28 +34,28 @@
 <body <?php body_class(); ?>>
 <div class="container navbar-fixed-top" id="us-top-video">
     <div class="row">
-        <div class="col-md-12 text-center">
+        <div class="col-xs-12 text-center">
             <a href="#"></a>
         </div>
     </div>
 </div>
 <div class="container navbar-fixed-top" id="us-top-nav">
     <div class="row">
-        <div class="col-md-3" id="us-top-nav-logo">
+        <div class="col-xs-3" id="us-top-nav-logo">
             <a href=" <?php echo home_url(); ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt=""/>
             </a>
         </div>
-        <?php wp_nav_menu(array('menu' => 'Primary Menu', 'container' => 'div', 'container_class' => 'col-md-7', 'container_id' => 'us-top-nav-menu')); ?>
-        <div class="col-md-2" id="us-top-nav-lang">
+        <?php wp_nav_menu(array('menu' => 'Primary Menu', 'container' => 'div', 'container_class' => 'col-xs-7', 'container_id' => 'us-top-nav-menu')); ?>
+        <div class="col-xs-2 hidden-sm hidden-xs" id="us-top-nav-lang">
             <div class="row">
-                <div class="col-md-3 text-center">
+                <div class="col-xs-3 text-center">
                     <a href="#">Rus</a>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-xs-3 text-center">
                     <a href="#">Kaz</a>
                 </div>
-                <div class="col-md-3 text-center">
+                <div class="col-xs-3 text-center">
                     <a href="#">Eng</a>
                 </div>
             </div>
@@ -68,7 +68,7 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="h2">Контакты</div>
                         <p>
                             Спонсорство индуцирует экспериментальный стиль менеджмента, используя опыт предыдущих кампаний. До недавнего времени считалось, что коммуникация отталкивает анализ зарубежного опыта, опираясь на опыт западных коллег. Косвенная реклама экономит связанный медиамикс, отвоевывая рыночный сегмент. Рекламный макет, конечно, детерминирует связанный PR, признавая определенные рыночные тенденции.
@@ -82,7 +82,7 @@
                             Вс | Выходной
                         </h5>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-xs-6">
                         <div class="h2">Карта проезда</div>
                         <p>
                             <img src="http://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=427x200&maptype=roadmap
@@ -92,28 +92,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="h4">Телефоны</div>
                         <div class="h5">
                             +7 (727) 234-34-34<br/>
                             +7 (727) 234-34-34
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="h4">Факсы</div>
                         <div class="h5">
                             +7 (727) 234-34-34<br/>
                             +7 (727) 234-34-34
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="h4">Телефон доверия</div>
                         <div class="h5">
                             +7 (727) 234-34-34<br/>
                             +7 (727) 234-34-34
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-xs-3">
                         <div class="h4">Мобильные телефоны</div>
                         <div class="h5">
                             +7 (727) 234-34-34<br/>

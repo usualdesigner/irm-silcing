@@ -6,14 +6,14 @@
 
 <div class="container" id="tools">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-xs-10 col-xs-offset-1">
             <div class="row">
-                <div class="col-md-6 us-page-breadcrumbs">
+                <div class="col-xs-6 us-page-breadcrumbs">
                     <?php if(function_exists('bcn_display')) :?>
                         <?php bcn_display(); ?>
                     <?php endif; ?>
                 </div>
-                <div class="col-md-3 col-md-offset-3 us-page-search">
+                <div class="col-xs-3 col-xs-offset-3 us-page-search">
                     <?php get_search_form(); ?>
                 </div>
             </div>
@@ -30,14 +30,14 @@
 
 <div class="container top-distance bottom-distance" id="page">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-xs-10 col-xs-offset-1">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-xs-8">
                     <?php the_content(); ?>
                     <hr/>
                     <?php comments_template(); ?>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-4">
                     <?php get_sidebar(); ?>
                 </div>
             </div>

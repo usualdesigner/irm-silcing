@@ -1,13 +1,13 @@
 <div class="container top-distance bottom-distance gray" id="social">
     <div class="row">
-        <div class="col-md-2 col-md-offset-5 text-center">
+        <div class="col-xs-2 col-xs-offset-5 text-center">
             <div class="row">
-                <div class="col-md-6 text-center">
+                <div class="col-xs-6 text-center">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-icon-yt.png" alt="" class="img-responsive"/>
                     </a>
                 </div>
-                <div class="col-md-6 text-center">
+                <div class="col-xs-6 text-center">
                     <a href="#">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer-icon-fb.png" alt="" class="img-responsive"/>
                     </a>

@@ -47,10 +47,10 @@ function usCustomCommentCallback($comment, $args, $depth){
     ?>
 
     <div class="row us-comment-wrapper" id="comment-<?php comment_ID() ?>">
-        <div class="col-md-1">
+        <div class="col-xs-1">
             <?php echo get_avatar( $comment, 40 ); ?>
         </div>
-        <div class="col-md-11">
+        <div class="col-xs-11">
             <div class="us-comment-name">
                 <?php printf( __( '<cite class="fn">%s</cite> <span class="says">says:</span>' ), get_comment_author_link() ); ?>
             </div>
