@@ -80,6 +80,7 @@ a, a:focus
     border-bottom-width: 0
     padding-left: 0
     li
+      padding: 0 8px
       a
         height: 84px
         width: 230px
@@ -213,11 +214,14 @@ a, a:focus
 
 #menu-primary-menu
   @extend .row
+  padding-left: 0
   margin-bottom: 0
   list-style: none
   li
     text-align: center
     @extend .col-xs-2
+    padding-left: 8px
+    padding-right: 8px
     &.current-menu-item
       +background-image(linear-gradient(#ddd, #fff))
 

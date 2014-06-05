@@ -50,10 +50,10 @@
         <div class="col-xs-2 hidden-sm hidden-xs" id="us-top-nav-lang">
             <div class="row">
                 <div class="col-xs-3 text-center">
-                    <a href="#">Rus</a>
+                    <a href="#">Kaz</a>
                 </div>
                 <div class="col-xs-3 text-center">
-                    <a href="#">Kaz</a>
+                    <a href="#">Rus</a>
                 </div>
                 <div class="col-xs-3 text-center">
                     <a href="#">Eng</a>
