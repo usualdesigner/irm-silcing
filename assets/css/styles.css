@@ -1407,7 +1407,7 @@ html {
 /* line 27, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #eeeeee;
@@ -1620,14 +1620,14 @@ p {
 /* line 62, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   /* line 62, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
@@ -1980,7 +1980,7 @@ pre {
   display: block;
   padding: 9.5px;
   margin: 0 0 10px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
@@ -2009,8 +2009,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /* line 15, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .container:before, .container:after {
@@ -2044,8 +2044,8 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 /* line 15, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .container-fluid:before, .container-fluid:after {
@@ -2059,8 +2059,8 @@ pre code {
 
 /* line 39, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_grid.scss */
 .row, #menu-primary-menu {
-  margin-left: -7px;
-  margin-right: -7px;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 /* line 15, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .row:before, #menu-primary-menu:before, .row:after, #menu-primary-menu:after {
@@ -2076,8 +2076,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, #menu-primary-menu li, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* line 33, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -3399,7 +3399,7 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 20px;
-  font-size: 21px;
+  font-size: 24px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -3459,7 +3459,7 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 7px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
 }
@@ -3470,7 +3470,7 @@ output {
   width: 100%;
   height: 34px;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #555555;
   background-color: white;
@@ -3918,8 +3918,8 @@ select[multiple].input-lg,
 }
 /* line 451, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
-  margin-left: -7px;
-  margin-right: -7px;
+  margin-left: -16px;
+  margin-right: -16px;
 }
 /* line 15, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .form-horizontal .form-group:before, .form-horizontal .form-group:after {
@@ -3946,7 +3946,7 @@ select[multiple].input-lg,
 /* line 474, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
-  right: 7px;
+  right: 16px;
 }
 
 /* line 9, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_buttons.scss */
@@ -3961,7 +3961,7 @@ select[multiple].input-lg,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.428571429;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -4307,7 +4307,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 16px;
   text-align: left;
   background-color: white;
   border: 1px solid #cccccc;
@@ -4730,7 +4730,7 @@ tbody.collapse.in {
 /* line 69, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
   padding: 6px 12px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   color: #555555;
@@ -5951,7 +5951,7 @@ a.badge:hover, a.badge:focus {
   /* line 44, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 63px;
+    font-size: 72px;
   }
 }
 
@@ -6478,7 +6478,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
   color: inherit;
 }
 /* line 39, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6862,7 +6862,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 /* line 6, ../../../../../../var/lib/gems/1.9.1/gems/bootstrap-sass-3.1.1.1/vendor/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: bold;
   line-height: 1;
   color: black;
@@ -7211,7 +7211,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
