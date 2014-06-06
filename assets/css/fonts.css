@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "wf_SegoeUILight";
-  src: url('/assets/css/fonts/SegoeUI/latest.eot') format('embedded-opentype'), url('/assets/css/fonts/SegoeUI/latest.svg') format('svg'), url('/assets/css/fonts/SegoeUI/latest.ttf') format('truetype'), url('/assets/css/fonts/SegoeUI/latest.woff') format('woff');
-}
-
 /* line 3, ../sass/fonts.sass */
 body {
-  font-family: "wf_SegoeUILight";
+  font-family: "Open Sans", sans-serif;
 }

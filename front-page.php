@@ -15,7 +15,9 @@
                     <?php $_c = 0;?>
                     <?php while (have_rows('top_slider_gallery')) : the_row(); ?>
                         <div class="item <?php echo ($_c == 0) ? 'active' : ''; ?>">
-                            <img src="<?php the_sub_field('top_slider_image'); ?>" alt="...">
+                            <a href="http://google.com">
+                                <img src="<?php the_sub_field('top_slider_image'); ?>" alt="...">
+                            </a>
                         </div>
                         <?php $_c++;?>
                     <?php endwhile; ?>

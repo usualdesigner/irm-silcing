@@ -10,15 +10,17 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <![endif]-->
     <style>
-        @font-face {
-            font-family: "wf_SegoeUILight";
-            src: url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.eot') format('embedded-opentype'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.svg') format('svg'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.ttf') format('truetype'), url('<?php echo get_template_directory_uri(); ?>/./assets/fonts/SegoeUI/latest.woff') format('woff');
-        }
-        body {
-            font-family: "wf_SegoeUILight";
-        }
+<!--        @font-face {-->
+<!--            font-family: "wf_SegoeUILight";-->
+<!--            src: url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.eot') format('embedded-opentype'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.svg') format('svg'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.ttf') format('truetype'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.woff') format('woff');-->
+<!--        }-->
+<!--        body {-->
+<!--            font-family: "wf_SegoeUILight";-->
+<!--        }-->
         .us-home-subtitle{
             border-bottom: 1px solid #DDCFD2;
             margin-bottom: 33px;
