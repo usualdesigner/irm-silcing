@@ -15,7 +15,7 @@
                     <?php $_c = 0;?>
                     <?php while (have_rows('top_slider_gallery')) : the_row(); ?>
                         <div class="item <?php echo ($_c == 0) ? 'active' : ''; ?>">
-                            <a href="http://google.com">
+                            <a href="<?php the_sub_field('top_slider_link'); ?>">
                                 <img src="<?php the_sub_field('top_slider_image'); ?>" alt="...">
                             </a>
                         </div>
@@ -99,9 +99,9 @@
                                         <a href="<?php the_permalink(); ?>">
                                             <img src="<?php echo get_field('faq_icon') ?>" alt="" class="img-responsive img-rounded"/>
                                         </a>
-                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                     </div>
                                 </div>
+                                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                             </div>
                         <?php endwhile; ?>
                     </div>
