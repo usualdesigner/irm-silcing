@@ -8180,10 +8180,12 @@ a, a:focus {
 }
 /* line 166, ../sass/custom.sass */
 #home-doctors-slider .us-tabs-wrapper .nav-tabs li a {
+  display: table-cell;
+  width: 195px;
+  vertical-align: middle;
   background-color: transparent;
   border: none;
-  line-height: 56px;
-  display: block;
+  height: 56px;
   color: #333333;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -8191,7 +8193,7 @@ a, a:focus {
   -o-border-radius: 0;
   border-radius: 0;
 }
-/* line 173, ../sass/custom.sass */
+/* line 175, ../sass/custom.sass */
 #home-doctors-slider .us-tabs-wrapper .nav-tabs li.active {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cecece), color-stop(100%, #e4e5e5));
   background-image: -webkit-linear-gradient(#cecece, #e4e5e5);
@@ -8199,88 +8201,88 @@ a, a:focus {
   background-image: -o-linear-gradient(#cecece, #e4e5e5);
   background-image: linear-gradient(#cecece, #e4e5e5);
 }
-/* line 175, ../sass/custom.sass */
+/* line 177, ../sass/custom.sass */
 #home-doctors-slider .us-tabs-wrapper .nav-tabs li:first-of-type {
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
 }
-/* line 177, ../sass/custom.sass */
+/* line 179, ../sass/custom.sass */
 #home-doctors-slider .us-tabs-wrapper .nav-tabs li:last-of-type {
   border-bottom-right-radius: 6px;
   border-top-right-radius: 6px;
 }
 
-/* line 180, ../sass/custom.sass */
+/* line 182, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-title, #us-sidebar-latest-news .us-home-latest-news-title {
   margin-top: 0;
 }
-/* line 182, ../sass/custom.sass */
+/* line 184, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-title a, #us-sidebar-latest-news .us-home-latest-news-title a {
   color: #333333;
 }
-/* line 184, ../sass/custom.sass */
+/* line 186, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-date, #us-sidebar-latest-news .us-home-latest-news-date {
   background: url("../images/us-home-latest-news-date.png") no-repeat center top;
   height: 70px;
   margin-bottom: 8px;
 }
-/* line 188, ../sass/custom.sass */
+/* line 190, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-date .h1, #us-sidebar-latest-news .us-home-latest-news-date .h1, #us-home-latest-news .us-home-latest-news-date .h5, #us-sidebar-latest-news .us-home-latest-news-date .h5 {
   color: white;
 }
-/* line 190, ../sass/custom.sass */
+/* line 192, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-date .h1, #us-sidebar-latest-news .us-home-latest-news-date .h1 {
   margin: 6px 0 0 0;
 }
-/* line 192, ../sass/custom.sass */
+/* line 194, ../sass/custom.sass */
 #us-home-latest-news .us-home-latest-news-date .h5, #us-sidebar-latest-news .us-home-latest-news-date .h5 {
   margin: 0;
 }
 
-/* line 195, ../sass/custom.sass */
+/* line 197, ../sass/custom.sass */
 .us-comment-wrapper .us-comment-name {
   margin-top: 0;
 }
 
-/* line 201, ../sass/custom.sass */
+/* line 203, ../sass/custom.sass */
 #tools {
   margin-top: 88px;
   padding-top: 30px;
 }
-/* line 204, ../sass/custom.sass */
+/* line 206, ../sass/custom.sass */
 #tools .us-page-breadcrumbs {
   line-height: 34px;
 }
 
-/* line 206, ../sass/custom.sass */
+/* line 208, ../sass/custom.sass */
 .us-footer-navbar {
   display: table;
   margin: 0 auto;
   float: none;
 }
 
-/* line 211, ../sass/custom.sass */
+/* line 213, ../sass/custom.sass */
 #us-footer-copyright #us-footer-copyright-license {
   color: #afafaf;
 }
-/* line 213, ../sass/custom.sass */
+/* line 215, ../sass/custom.sass */
 #us-footer-copyright #us-footer-copyright-owner {
   color: #555555;
 }
 
-/* line 216, ../sass/custom.sass */
+/* line 218, ../sass/custom.sass */
 #menu-primary-menu {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
-/* line 221, ../sass/custom.sass */
+/* line 223, ../sass/custom.sass */
 #menu-primary-menu li {
   text-align: center;
   padding-left: 8px;
   padding-right: 8px;
 }
-/* line 226, ../sass/custom.sass */
+/* line 228, ../sass/custom.sass */
 #menu-primary-menu li.current-menu-item {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dddddd), color-stop(100%, #ffffff));
   background-image: -webkit-linear-gradient(#dddddd, #ffffff);
@@ -8289,7 +8291,7 @@ a, a:focus {
   background-image: linear-gradient(#dddddd, #ffffff);
 }
 
-/* line 229, ../sass/custom.sass */
+/* line 231, ../sass/custom.sass */
 .us-sidebar-widget {
   margin-bottom: 8px;
 }
