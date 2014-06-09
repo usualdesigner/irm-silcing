@@ -13,25 +13,6 @@
     <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>-->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <![endif]-->
-    <style>
-<!--        @font-face {-->
-<!--            font-family: "wf_SegoeUILight";-->
-<!--            src: url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.eot') format('embedded-opentype'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.svg') format('svg'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.ttf') format('truetype'), url('--><?php //echo get_template_directory_uri(); ?><!--/./assets/fonts/SegoeUI/latest.woff') format('woff');-->
-<!--        }-->
-<!--        body {-->
-<!--            font-family: "wf_SegoeUILight";-->
-<!--        }-->
-        .us-home-subtitle{
-            border-bottom: 1px solid #DDCFD2;
-            margin-bottom: 33px;
-        }
-        .us-home-subtitle > .text{
-            padding: 0 1em;
-            background-color: #fff;
-            display: table;
-            margin: 0 auto -15px;
-        }
-    </style>
 </head>
 <body <?php body_class(); ?>>
 <div class="container navbar-fixed-top" id="us-top-video" data-toggle="modal" data-target="#videoModal">
@@ -65,11 +46,11 @@
     </div>
 </div>
 
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade<?php echo is_front_page() ? ' is-frontpage' : ''?>" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body">
-                <iframe src="//player.vimeo.com/video/86744726" width="848" height="476" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="//player.vimeo.com/video/86744726" width="1170" height="665" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
     </div>

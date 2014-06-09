@@ -59,4 +59,6 @@ $(function () {
         $('#contactsModal').modal('show');
 
     })
+
+    $('#videoModal.is-frontpage').modal('show');
 });
