@@ -74,7 +74,7 @@
 </div>
 <?php endif; ?>
 
-<?php $faq_posts = query_posts(array('post_type' => 'faq','posts_per_page' => -1, 'order' => 'ASC', 'orderby' => 'date')); ?>
+<?php $faq_posts = query_posts(array('post_type' => 'faq','posts_per_page' => -1, 'order' => 'DESC', 'orderby' => 'date')); ?>
 <?php if($faq_posts): ?>
     <div class="container bottom-distance" id="home-faq-slider">
         <div class="row">
