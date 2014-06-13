@@ -47,17 +47,18 @@
 </div>
 
 <div class="modal fade<?php echo is_front_page() ? ' is-frontpage' : ''?>" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xlg">
+        <div class="close" data-dismiss="modal">X</div>
         <div class="modal-content">
             <div class="modal-body">
-                <iframe src="//player.vimeo.com/video/86744726" width="1170" height="665" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe width="1170" height="658" src="//www.youtube.com/embed/KFobVa_hR-s" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </div>
 
 <div class="modal fade" id="contactsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xlg">
         <div class="modal-content">
             <div class="modal-body">
                 <div class="row">
@@ -82,9 +83,9 @@
                                     Мы находимся
                                 </div>
                                 <h4>
-                                    ул. Толе Би, 99, угол<br/>
-                                    ул. А.Байтурсынова<br/>
-                                    050012, г. Алматы
+                                    Республика Казахстан,<br/>
+                                    050012, г.Алматы,<br/>
+                                    ул.Толе би, 99 угол ул.А.Байтурсынова
                                 </h4>
                             </div>
                         </div>
@@ -92,14 +93,14 @@
                     <div class="col-xs-6">
                         <div class="h2">Карта проезда</div>
                         <p>
-                            <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=embed&amp;q=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050012+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99,+%D0%90%D0%BB%D0%BC%D0%B0%D0%BB%D1%8B+%D0%B0%D1%83%D0%B4%D0%B0%D0%BD%D1%8B,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,+Almaty+City+050012,+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;z=14&amp;ll=43.255265,76.926368&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=embed&amp;q=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050012+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99,+%D0%90%D0%BB%D0%BC%D0%B0%D0%BB%D1%8B+%D0%B0%D1%83%D0%B4%D0%B0%D0%BD%D1%8B,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,+Almaty+City+050012,+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;z=14&amp;ll=43.255265,76.926368&amp;source=embed" style="color:#0000FF;text-align:left">Просмотреть увеличенную карту</a></small>
+                            <iframe width="553" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=embed&amp;q=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050012+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99,+%D0%90%D0%BB%D0%BC%D0%B0%D0%BB%D1%8B+%D0%B0%D1%83%D0%B4%D0%B0%D0%BD%D1%8B,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,+Almaty+City+050012,+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;z=14&amp;ll=43.255265,76.926368&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?t=m&amp;hl=ru-RU&amp;gl=US&amp;mapclient=embed&amp;q=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B+050012+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;ie=UTF8&amp;hq=&amp;hnear=%D0%A2%D3%A9%D0%BB%D0%B5+%D0%B1%D0%B8+%D0%BA%D3%A9%D1%88%D0%B5%D1%81%D1%96+99,+%D0%90%D0%BB%D0%BC%D0%B0%D0%BB%D1%8B+%D0%B0%D1%83%D0%B4%D0%B0%D0%BD%D1%8B,+%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B,+Almaty+City+050012,+%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD&amp;z=14&amp;ll=43.255265,76.926368&amp;source=embed" style="color:#0000FF;text-align:left">Просмотреть увеличенную карту</a></small>
                         </p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-3">
                         <div class="h3">
-                            Тулефоны
+                            Телефоны
                         </div>
                         <h4>
                             +7 (727) 234-34-34<br/>
@@ -120,16 +121,17 @@
                             Мобильные телефоны
                         </div>
                         <h4>
-                            +7 (727) 206-25-02 - регистратура отделения"ЭКО"<br/>
-                            +7 (727) 578-00-88 - регистратура поликлиники
+                            +7​ (701​) 206-25-02 - регистратура отделения"ЭКО"<br/>
+                            +7 ​(​777​) ​578-00​-​88 - регистратура поликлиники
                         </h4>
                     </div>
                     <div class="col-xs-3">
                         <div class="h3">
-                            Тулефон доверия
+                            Телефон доверия
                         </div>
                         <h4>
-                            +7 (727) 234-34-34 внутренний 708
+                            +7​ ​(707) 424-99-09<br/>
+                            +7 (701) 712-04-54
                         </h4>
                     </div>
                 </div>

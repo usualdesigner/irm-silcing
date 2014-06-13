@@ -1,3 +1,5 @@
+body
+  overflow-y: scroll
 .container
   width: 1170px !important
 a, a:focus
@@ -237,7 +239,25 @@ a, a:focus
   .modal-dialog
     margin-top: 0
     margin-bottom: 0
-    width: 1170px
+    .close
+      width: 32px
+      height: 32px
+      opacity: 1
+      background: #eb0040
+      position: absolute
+      top: 0
+      right: -35px
+      border-radius: 50%
+      font-size: 20px
+      line-height: 32px
+      text-align: center
+      color: #fff
     .modal-body
       padding: 0
-      height: 665px
+      height: 657px
+.modal-dialog.modal-xlg
+  width: 1170px
+.modal-backdrop.in
+  opacity: .8
+.modal-open
+  overflow-y: scroll
