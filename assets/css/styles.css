@@ -8053,7 +8053,7 @@ a, a:focus {
 }
 /* line 86, ../sass/custom.sass */
 #home-tab-set .nav-tabs li a {
-  font-weight: bold;
+  font-weight: 400;
   height: 84px;
   width: 230px;
   padding-bottom: 13px;
@@ -8348,5 +8348,6 @@ a, a:focus {
 
 /* line 3, ../sass/fonts.sass */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
