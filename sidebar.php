@@ -24,3 +24,4 @@
         </div>
     </div>
 <?php endif; ?>
+<?php dynamic_sidebar('sidebar'); ?>

@@ -83,7 +83,7 @@
                     <div class="text">
 <!--                        --><?php //$faqPostType = get_post_type_object( 'faq' ); ?>
 <!--                        <div class="text">--><?php //echo $faqPostType->labels->name; ?><!--</div>-->
-                        <div class="text">Часто задаваемые вопросы</div>
+                        <div class="text"><?php _e('Frequently Asked Question','irm-template'); ?></div>
                     </div>
                 </h2>
             </div>
@@ -119,7 +119,7 @@
             <h2 class="text-center us-home-subtitle">
 <!--                --><?php //$doctorsPostType = get_post_type_object( 'doctor' ); ?>
 <!--                <div class="text">--><?php //echo $doctorsPostType->labels->name; ?><!--</div>-->
-                <div class="text">Наша команда</div>
+                <div class="text"><?php _e('Our team','irm-template'); ?></div>
             </h2>
         </div>
     </div>
@@ -204,7 +204,7 @@
                 <h2 class="text-center us-home-subtitle">
 <!--                    --><?php //$newsPostType = get_post_type_object( 'news' ); ?>
 <!--                    <div class="text">--><?php //echo $newsPostType->labels->name; ?><!--</div>-->
-                    <div class="text">Новости</div>
+                    <div class="text"><?php _e('News','irm-template'); ?></div>
                 </h2>
             </div>
         </div>
@@ -234,7 +234,7 @@
                 </div>
             </div>
             <div class="col-xs-4 col-xs-offset-4 text-center bottom-distance top-distance">
-                <a href="#" class="us-link-1">Все новости</a>
+                <a href="#" class="us-link-1"><?php _e('All news','irm-template'); ?></a>
             </div>
         </div>
     <?php endif; ?>

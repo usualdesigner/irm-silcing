@@ -46,9 +46,21 @@ a, a:focus
     margin-bottom: -30px
     margin-top: -30px
   #us-top-nav-menu
-    a
-      color: $gray
-      display: block
+    .menu
+      @extend .row
+      padding-left: 0
+      margin-bottom: 0
+      list-style: none
+      li
+        text-align: center
+        @extend .col-xs-2
+        padding-left: 8px
+        padding-right: 8px
+        &.current-menu-item
+          +background-image(linear-gradient(#ddd, #fff))
+        a
+          color: $gray
+          display: block
   #us-top-nav-lang
     a
       color: $gray-light
@@ -216,19 +228,6 @@ a, a:focus
     color: adjust-lightness($gray, 35%)
   #us-footer-copyright-owner
     color: $gray
-
-#menu-primary-menu
-  @extend .row
-  padding-left: 0
-  margin-bottom: 0
-  list-style: none
-  li
-    text-align: center
-    @extend .col-xs-2
-    padding-left: 8px
-    padding-right: 8px
-    &.current-menu-item
-      +background-image(linear-gradient(#ddd, #fff))
 
 .us-sidebar-widget
   margin-bottom: 8px

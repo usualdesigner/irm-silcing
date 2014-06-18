@@ -86,3 +86,14 @@ function mytheme_comments_form_defaults($default) {
     unset($default['comment_notes_after']);
     return $default;
 }
+
+function language_selector_flags(){
+    $languages = icl_get_languages('skip_missing=0&orderby=code');
+    if(!empty($languages)){
+        foreach($languages as $l){
+            echo '<div class="col-xs-3 text-center"><a href="'.$l['url'].'">';
+            echo mb_substr($l['native_name'], 0, 3);
+            echo '</a></div>';
+        }
+    }
+}

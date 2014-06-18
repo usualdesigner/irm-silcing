@@ -24,13 +24,13 @@
 <div class="container gray" id="us-footer-copyright">
     <div class="text-center" id="us-footer-copyright-owner">
         <p>
-            © ИРМ, 2014. Все права защищены.
+            © <?php echo get_bloginfo('name'); ?>, (<?php echo date('Y'); ?>) <?php _e('All rights reserved','irm-template'); ?>.
         </p>
     </div>
     <div class="text-center" id="us-footer-copyright-license">
         <p>
-            Государственная лицензия АА-4 №0105404 от 14.04.2010<br/>
-            Государственная лицензия №13006107 от 22.04.2013
+            <?php _e('State license number 4 AA-​​0105404 from 14.04.2010','irm-template'); ?><br/>
+            <?php _e('State license number 13006107 from 22.04.2013','irm-template'); ?><br/>
         </p>
     </div>
 </div>

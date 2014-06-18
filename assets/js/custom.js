@@ -55,9 +55,13 @@ $(function () {
     })
 
     $('#menu-item-250').on('click', function(e){
-
-        $('#contactsModal').modal('show');
-
+        $('#contactsModal-ru').modal('show');
+    })
+    $('#menu-item-814').on('click', function(e){
+        $('#contactsModal-en').modal('show');
+    })
+    $('#menu-item-815').on('click', function(e){
+        $('#contactsModal-kz').modal('show');
     })
 
     $('#videoModal.is-frontpage').modal('show');
