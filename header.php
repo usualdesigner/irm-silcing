@@ -54,7 +54,7 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-xs-6">
-                        <div class="h2">Контакты (ru)</div>
+                        <div class="h2">Контакты</div>
                         <div class="row">
                             <div class="col-xs-6">
                                 <div class="h3">
