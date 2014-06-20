@@ -88,7 +88,8 @@ function mytheme_comments_form_defaults($default) {
 }
 
 function language_selector_flags(){
-    $languages = icl_get_languages('skip_missing=0&orderby=code');
+    return false;
+    $languages = icl_get_languages('skip_missing=0&orderby=key');
     if(!empty($languages)){
         foreach($languages as $l){
             echo '<div class="col-xs-3 text-center"><a href="'.$l['url'].'">';
